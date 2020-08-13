@@ -10,7 +10,7 @@ export default createBuilder([
     ['Renaming package entry files', tasks.renamePackageEntryFiles],
     ['Cleaning TypeScript files', tasks.cleanTypeScriptFiles],
     ['Cleaning JavaScript files', tasks.cleanJavaScriptFiles],
-    ['Removing remaining sourcemap files', tasks.removeRemainingSourceMapFiles],
+    // ['Removing remaining sourcemap files', tasks.removeRemainingSourceMapFiles],
     ['Copying type definition files', tasks.copyTypeDefinitionFiles],
     ['Copying schematic files', tasks.copySchematicFiles],
     ['Minifying UMD bundles', tasks.minifyUmdBundles],
